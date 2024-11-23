@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hackathon 3 and 4 by AM Brohi</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+   <center> 
+    <header>
+        <containor class="logo">
+            <img src="logo1.png" alt="Logo" />
+        </containor>
+        <h1>Stand Out with a CV That Speaks for You.</h1>
+    </header>
+    
+    <div>
+    <form id="formcv">
+        <h1>Personal Info</h1>
+       <hr>
+       <label for="name">Name</label>
+       <input type="text" id="name" required>
+       <label for="email">Email</label>
+       <input type="email" id="email" required>
+       <label for="ph">Phone Number</label>
+       <input type="tel" id="ph" required>
+       <label for="add">Address</label>
+       <input type="text" id="add" required>
+       
+        <h1>Education</h1>
+        <hr>
+        <textarea id="education" rows="6" required></textarea>
+        
+        <h1>Experience</h1>
+        <hr>
+        <textarea id="experience" rows="6" required></textarea>
+        
+        <h1>Skills</h1>
+        <hr>
+        <textarea id="skills" rows="6" required></textarea><br>
+        <!-- hi  -->
+        <b><button type="submit">Generate CV</button></b>
+    </form>
+</div>
+
+<div id="displayr"></div>
+<button id="update" style="display: none;" onclick="updatefrom()">update</button>
+<br>
+<footer>
+    <p>&copy; 2024 Abdul Majid. All Rights Reserved.</p>
+    <ul>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Service</a></li>
+        <li><a href="brohimajid373@gmail.com">Email</a> </li>
+    </ul>
+</footer>
+
+   </center>
+    <script src="script.js"></script>
+</body>
+</html>
